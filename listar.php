@@ -28,7 +28,7 @@
                     <td>
                         <div class='btn-group' role='group'>
                             <a href='form_atualiza.php?id=". $produto['id'] ."' type='button' class='btn btn-danger'>Atualizar</a>
-                            <a href='#' type='button' class='btn btn-warning'>Apagar</a>
+                            <a href='excluir.php?id=". $produto['id'] ."' type='button' class='btn btn-warning'>Apagar</a>
                         </div>
                     </td>
                     ";
