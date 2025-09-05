@@ -27,8 +27,8 @@
                     echo " 
                     <td>
                         <div class='btn-group' role='group'>
-                            <a href='form_atualiza.php?id=". $produto['id'] ."' type='button' class='btn btn-danger'>Atualizar</a>
-                            <a href='excluir.php?id=". $produto['id'] ."' type='button' class='btn btn-warning'>Apagar</a>
+                            <a href='form_atualiza.php?id=". $produto['id'] ."' type='button' class='btn btncor'>Atualizar</a>
+                            <a href='excluir.php?id=". $produto['id'] ."' type='button' class='btn btncor2'>Apagar</a>
                         </div>
                     </td>
                     ";

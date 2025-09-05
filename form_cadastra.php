@@ -2,7 +2,7 @@
     include 'pedaco.php';
 ?>
 
-    <div class="container">
+    <div class="containercadastra">
         <form action="inserir.php" method="POST">
             <div class="mb-3">
                 <input type="text" class="form-control" name="nome" placeholder="Digite o nome do produto">
@@ -14,7 +14,7 @@
                 <input type="text" class="form-control" name="quantidade" placeholder="Digite a quantidade do produto">
             </div>
             
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
+            <button type="submit" class="btn btncor2">Cadastrar</button>
         </form>
     </div>
 
